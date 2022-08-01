@@ -33,3 +33,4 @@ Folder
 Flask -> AI converted into a WEB API through using flask Server. (Routes can be seen through main.py)
 Chat_Bot_Training -> Run train.py to produce training data (Introduction.pth)
 
+APP.YAML (Google Cloud Platform Specification)
