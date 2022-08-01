@@ -1,0 +1,97 @@
+{"intents":[
+        {"introduction":[
+                {"tag": "skills",
+                 "patterns": [
+                        "i believe that","i possess skills","some skills i have have are",
+                       "Be well-versed with programming languages (XML, Javascript, or ETL frameworks), databases (SQL, SQLite, Db2, etc.), and also have extensive knowledge on reporting packages (Business Objects).",
+                        "Be able to analyze, organize, collect and disseminate Big Data efficiently.",
+                        "You must have substantial technical knowledge in fields like database design, data mining, and segmentation techniques.",
+                        "statistical packages for analyzing massive datasets such as SAS, Excel, and SPSS, to name a few.",
+                        "Robust knowledge on reporting packages (Business Objects), programming language (XML, Javascript, or ETL frameworks), databases (SQL, SQLite, etc.)",
+                        "Strong skills with the ability to analyze, organize, collect and disseminate big data with accuracy",
+                        "Technical knowledge in database design, data models, data mining and segmentation techniques",
+                        "Strong knowledge on statistical packages for analyzing large datasets (SAS, Excel, SPSS, etc.)"
+                        ],
+                 "responses": ["What are the key requirements for becoming a Data Analyst??"]                 
+                },
+                {"tag": "responsibility",
+                 "patterns": [
+                         "What are the important responsibilities of a data analyst?",
+                         "Collect and interpret data from multiple sources and analyze results.",
+                         "Filter and 'clean' data gathered from multiple sources.",
+                         "Offer support to every aspect of data analysis.",
+                         "Analyze complex datasets and identify the hidden patterns in them.",
+                         "Keep databases secured.",
+                         "Provide support to all data analysis and coordinate with customers and staffs",
+                         "Resolve business associated issues for clients and performing audit on data",
+                         "Analyze results and interpret data using statistical techniques and provide ongoing reports",
+                         "Prioritize business needs and work closely with management and information needs",
+                         "Identify new process or areas for improvement opportunities",
+                         "Analyze, identify and interpret trends or patterns in complex data sets",
+                         "Acquire data from primary or secondary data sources and maintain databases/data systems",
+                         "Filter and 'clean' data, and review computer reports",
+                         "Determine performance indicators to locate and correct code problems",
+                         "Securing database by developing access system by determining user level of access"
+                        ],
+                 "responses": ["What are the important responsibilities of a data analyst?"]                 
+                },                        
+                {"tag": "experience",
+                 "patterns": [
+                         "Segregating data, according to their respective attributes.",
+                         "Breaking large chunks of data into small datasets and then cleaning them.",
+                         "Analyzing the statistics of each data column.",
+                         "Creating a set of utility functions or scripts for dealing with common cleaning tasks.",
+                         "Keeping track of all the data cleansing operations to facilitate easy addition or removal from the datasets, if required.",
+                         "Data cleaning also referred as data cleansing, deals with identifying and removing errors and inconsistencies from data in order to enhance the quality of data."
+                        ],
+                 "responses": ["What does 'Data Cleansing' mean? What are the best ways to practice this?"]                 
+                },
+                {"tag": "tools",
+                 "patterns": [
+                         "Tableau",
+                         "Google Fusion Tables",
+                         "Google Search operators",
+                         "KNIME",
+                         "RapidMiner",
+                         "Solver",
+                         "OpenRefine",
+                         "NodeXL",
+                         "IO",
+                         "Wolfram Alpha's"
+                        ],
+                 "responses": ["Name the best tools used for data analysis."]                 
+                },
+                {"tag": "missing-data",
+                 "patterns": [
+                         "Use data analysis strategies like deletion method, single imputation methods, and model-based methods to detect missing data.",
+                         "Prepare a validation report containing all information about the suspected or missing data.",
+                         "Scrutinize the suspicious data to assess their validity.",
+                         "Replace all the invalid data (if any) with a proper validation code."
+                        ],
+                 "responses": ["What should a data analyst do with missing or suspected data?"]                 
+                },
+                {"tag": "missing-data",
+                 "patterns": [
+                        "Field Level Validation – In this method, data validation is done in each field as and when a user enters the data. It helps to correct the errors as you go.",
+                        "Form Level Validation – In this method, the data is validated after the user completes the form and submits it. It checks the entire data entry form at once, validates all the fields in it, and highlights the errors (if any) so that the user can correct it.",
+                        "Data Saving Validation – This data validation technique is used during the process of saving an actual file or database record. Usually, it is done when multiple data entry forms must be validated.",
+                        "Search Criteria Validation – This validation technique is used to offer the user accurate and related matches for their searched keywords or phrases. The main purpose of this validation method is to ensure that the user’s search queries can return the most relevant results."
+                        ],
+                 "responses": ["What should a data analyst do with missing or suspected data?"]                 
+                }
+        ],        
+        "after-care":[
+                {"tag": "salary",
+                 "patterns": ["What is your pay rate?","How much will i be getting?","May i enquire on the salary?"],
+                 "responses": ["For {position} we will be offering {amount} and Health insurance on a 6 months cycle."]                 
+                },
+                {"tag": "notified",
+                 "patterns": ["How will i be notified  if i am successful?","When will i be told the results of the interview?"],
+                 "responses": ["Our HR, will contact you via email or phone call in 3-4 working days."]                 
+                },
+                {"tag": "details",
+                 "patterns": ["What are the work hours?","How is the work like?","What is the job schedule?"],
+                 "responses": ["So it will be office hours from 9 to 6, with a rotating shift of weekends and weekdays"]                 
+                }
+        ]}
+]}
