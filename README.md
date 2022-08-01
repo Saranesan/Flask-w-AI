@@ -34,3 +34,8 @@ Flask -> AI converted into a WEB API through using flask Server. (Routes can be 
 Chat_Bot_Training -> Run train.py to produce training data (Introduction.pth)
 
 APP.YAML (Google Cloud Platform Specification)
+
+
+Before use (Cloudinary)
+Change .env file data with your own API KEY. ( Wont be able to use other wav files if not done )
+Make sure Cloudinary has a wav file as the response to the chatbot. (name wave file as input)
